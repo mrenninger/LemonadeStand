@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2568571A43940F00E98E96 /* CustomStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2568561A43940F00E98E96 /* CustomStepperView.swift */; };
+		2D2568591A4509D800E98E96 /* InventoryDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2568581A4509D800E98E96 /* InventoryDisplayView.swift */; };
+		2D25685B1A49F6AF00E98E96 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25685A1A49F6AF00E98E96 /* Utilities.swift */; };
 		2DBD35841A266C5F000CD42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD35831A266C5F000CD42F /* AppDelegate.swift */; };
-		2DBD35861A266C5F000CD42F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD35851A266C5F000CD42F /* ViewController.swift */; };
+		2DBD35861A266C5F000CD42F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD35851A266C5F000CD42F /* MainVC.swift */; };
 		2DBD35891A266C5F000CD42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBD35871A266C5F000CD42F /* Main.storyboard */; };
 		2DBD358B1A266C5F000CD42F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBD358A1A266C5F000CD42F /* Images.xcassets */; };
 		2DBD358E1A266C5F000CD42F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DBD358C1A266C5F000CD42F /* LaunchScreen.xib */; };
@@ -26,10 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D2568561A43940F00E98E96 /* CustomStepperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStepperView.swift; sourceTree = "<group>"; };
+		2D2568581A4509D800E98E96 /* InventoryDisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryDisplayView.swift; sourceTree = "<group>"; };
+		2D25685A1A49F6AF00E98E96 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		2DBD357E1A266C5F000CD42F /* LemonadeStand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonadeStand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBD35821A266C5F000CD42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DBD35831A266C5F000CD42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DBD35851A266C5F000CD42F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DBD35851A266C5F000CD42F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		2DBD35881A266C5F000CD42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DBD358A1A266C5F000CD42F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2DBD358D1A266C5F000CD42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -56,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D25685C1A4A016000E98E96 /* SuperAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				2D25685A1A49F6AF00E98E96 /* Utilities.swift */,
+			);
+			name = SuperAwesome;
+			sourceTree = "<group>";
+		};
 		2DBD35751A266C5F000CD42F = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				2DBD35831A266C5F000CD42F /* AppDelegate.swift */,
-				2DBD35851A266C5F000CD42F /* ViewController.swift */,
+				2DBD35851A266C5F000CD42F /* MainVC.swift */,
+				2D25685C1A4A016000E98E96 /* SuperAwesome */,
+				2D2568581A4509D800E98E96 /* InventoryDisplayView.swift */,
+				2D2568561A43940F00E98E96 /* CustomStepperView.swift */,
 				2DBD35871A266C5F000CD42F /* Main.storyboard */,
 				2DBD358A1A266C5F000CD42F /* Images.xcassets */,
 				2DBD358C1A266C5F000CD42F /* LaunchScreen.xib */,
@@ -212,7 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DBD35861A266C5F000CD42F /* ViewController.swift in Sources */,
+				2D2568591A4509D800E98E96 /* InventoryDisplayView.swift in Sources */,
+				2D2568571A43940F00E98E96 /* CustomStepperView.swift in Sources */,
+				2DBD35861A266C5F000CD42F /* MainVC.swift in Sources */,
+				2D25685B1A49F6AF00E98E96 /* Utilities.swift in Sources */,
 				2DBD35841A266C5F000CD42F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +427,7 @@
 				2DBD359F1A266C5F000CD42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DBD35A01A266C5F000CD42F /* Build configuration list for PBXNativeTarget "LemonadeStandTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +436,7 @@
 				2DBD35A21A266C5F000CD42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
